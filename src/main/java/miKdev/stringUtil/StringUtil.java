@@ -7,4 +7,8 @@ public class StringUtil {
         }
         return s.repeat(times);
     }
+
+    public static boolean isEmpty(String str) {
+        return str == null || str.trim().isEmpty();
+    }
 }
